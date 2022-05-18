@@ -10,3 +10,19 @@ body{
 .main-container{
     display: flex;
 }
+
+.right-side{
+    flex: 1;
+}
+
+.left-side{
+    flex: 1;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    max-width: 350px;
+    border: 1px solid #000;
+}
