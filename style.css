@@ -22,7 +22,63 @@ body{
 .login-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: #fff;
-    max-width: 350px;
-    border: 1px solid #000;
+    width: 350px;
+    height: 397.5px; 
+    border: 1px solid #dbdbdb;
+}
+
+.login-form img{
+    margin-top: 50px;
+    width: 175px;
+}
+
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.login-input{
+    box-sizing: border-box;
+    height: 38px;
+    width: 268px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    outline: 0;
+    color: #969696;
+    padding: 0 10px;
+}
+
+.login-form button{
+    background: #b2dffc;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.line::before{
+    content: "";
+    width: 10px;
+    height: 1px;
+    border: solid 1px #969696;
+
+}
+.line{
+    color: #969696;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    margin: 0 20px;
+
+}
+.line::after{
+    content: "";
+    width: 10px;
+    height: 1px;
+    border: solid 1px #969696;
+
 }
