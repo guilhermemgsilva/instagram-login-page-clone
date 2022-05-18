@@ -6,3 +6,7 @@
 body{
     background: #fafafa;
 }
+
+.main-container{
+    display: flex;
+}
