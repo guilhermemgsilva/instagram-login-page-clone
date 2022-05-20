@@ -117,3 +117,21 @@ body{
     font-size: 12px;
     color: #083d6f;
 }
+
+.register-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    width: 350px;
+    height: 63px;
+    font-size: 14px;
+
+}
+.register-info a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0095f6;
+}
